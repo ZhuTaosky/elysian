@@ -10,6 +10,7 @@ authors: ['John Blighton']
 draft: false
 ---
 
+<!-- import sampleImage from "../../assets/images/blog/exploring-the-creative-boundaries.jpg"; -->
 
 ## Chapter I: How to set up a blog post?
 
@@ -28,7 +29,15 @@ At the top of each post, you’ll need to define some metadata using frontmatter
 
 Where is the content of the post?
     Well, the content of the post is written in Markdown format below the frontmatter. You can use standard Markdown syntax to format your text, add images, links, and more.
-    
-    Tonight, 13th June 2026, I will continue to write the content of this post. Stay tuned!
+
+### Working image example in MDX
+
+If you want to use an imported image directly in the body of an MDX post, use the imported asset's `src` value with a normal HTML image tag:
+
+<!-- <img src={sampleImage.src} alt="Example image in this blog post" width="1200" height="800" /> -->
+
+This is the correct pattern for imported assets in MDX. Do not write `![alt](hero)` if `hero` is an imported image module.
+
+Tonight, 13th June 2026, I will continue to write the content of this post. Stay tuned!
 
 
