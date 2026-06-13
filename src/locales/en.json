@@ -1,0 +1,187 @@
+{
+  "archive_page": {
+    "all_tags": "all_tags",
+    "title_hero": "title_hero"
+  },
+  "meta": {
+    "glob": "glob",
+    "env": {
+      "PUBLIC_GOOGLE_ANALYTICS_ID": "PUBLIC_GOOGLE_ANALYTICS_ID"
+    }
+  },
+  "slug": "slug",
+  "global": {
+    "pagination": {
+      "no_posts": "no_posts",
+      "one_post": "one_post",
+      "multiple_posts": "multiple_posts",
+      "load_more": "load_more",
+      "no_tags": "no_tags",
+      "one_tag": "one_tag",
+      "multiple_tags": "multiple_tags"
+    },
+    "footer": {
+      "footer_text": "footer_text",
+      "form_placeholder": "form_placeholder",
+      "credits": "credits"
+    },
+    "form": {
+      "name": "name",
+      "email": "email",
+      "message": "message"
+    },
+    "navbar": {
+      "sign_in": "sign_in"
+    },
+    "tags_slider": {
+      "title": "title"
+    }
+  },
+  "github": {
+    "com": "com"
+  },
+  "css": "css",
+  "data": {
+    "pub_date": "pub_date",
+    "tags": {
+      "length": "length"
+    },
+    "title": "title",
+    "excerpt": "excerpt",
+    "feature_image": "feature_image",
+    "authors": {
+      "map": "map",
+      "length": "length"
+    }
+  },
+  "id": "id",
+  "querySelector": "querySelector",
+  "contact_page": {
+    "button_label": "button_label",
+    "title_hero": "title_hero",
+    "description_hero": "description_hero"
+  },
+  "signup_page": {
+    "button_label": "button_label",
+    "has_account": "has_account",
+    "sign_in": "sign_in",
+    "title_hero": "title_hero",
+    "description_hero": "description_hero"
+  },
+  "subscribe_page": {
+    "button_label": "button_label",
+    "title_hero": "title_hero",
+    "description_hero": "description_hero"
+  },
+  "signin_page": {
+    "no_account": "no_account",
+    "sign_up": "sign_up",
+    "title_hero": "title_hero",
+    "description_hero": "description_hero"
+  },
+  "addEventListener": "addEventListener",
+  "membership_page": {
+    "subscribe_now": "subscribe_now",
+    "title_hero": "title_hero",
+    "yearly": "yearly",
+    "monthly": "monthly"
+  },
+  "com": "com",
+  "pageX": "pageX",
+  "pageY": "pageY",
+  "remove": "remove",
+  "add": "add",
+  "querySelectorAll": "querySelectorAll",
+  "getAttribute": "getAttribute",
+  "setAttribute": "setAttribute",
+  "body": {
+    "style": {
+      "cursor": "cursor",
+      "overflow": "overflow",
+      "position": "position",
+      "top": "top",
+      "width": "width",
+      "removeProperty": "removeProperty"
+    },
+    "classList": {
+      "add": "add",
+      "remove": "remove"
+    }
+  },
+  "style": {
+    "cursor": "cursor",
+    "display": "display"
+  },
+  "removeEventListener": "removeEventListener",
+  "getElementById": "getElementById",
+  "documentElement": {
+    "scrollHeight": "scrollHeight",
+    "style": {
+      "scrollBehavior": "scrollBehavior"
+    }
+  },
+  "split": "split",
+  "createElement": "createElement",
+  "contains": "contains",
+  "classList": {
+    "add": "add"
+  },
+  "getElementsByClassName": "getElementsByClassName",
+  "target": "target",
+  "closest": "closest",
+  "replace": "replace",
+  "astro": "astro",
+  "url": "url",
+  "post": {
+    "clipboard": "clipboard",
+    "older_post": "older_post",
+    "newer_post": "newer_post"
+  },
+  "error_404_page": {
+    "title_hero": "title_hero",
+    "description_hero": "description_hero",
+    "button_label": "button_label"
+  },
+  "webp": "webp",
+  "account_page": {
+    "title_hero": "title_hero",
+    "full_name_value": "full_name_value",
+    "settings": "settings",
+    "log_out": "log_out",
+    "full_name_label": "full_name_label",
+    "email_label": "email_label",
+    "email_value": "email_value",
+    "current_plan_label": "current_plan_label",
+    "current_plan_value": "current_plan_value",
+    "card_label": "card_label",
+    "card_value": "card_value",
+    "billing_date_label": "billing_date_label",
+    "billing_date_value": "billing_date_value"
+  },
+  "author_page": {
+    "author_info": "author_info",
+    "full_name": "full_name",
+    "about": "about",
+    "location": "location",
+    "work": "work"
+  },
+  "blog_page": {
+    "title_hero": "title_hero",
+    "description_hero": "description_hero"
+  },
+  "faq_page": {
+    "title_hero": "title_hero",
+    "description_hero": "description_hero"
+  },
+  "homepage": {
+    "title_hero": "title_hero",
+    "description_hero": "description_hero",
+    "title_featured_posts_desktop": "title_featured_posts_desktop",
+    "title_featured_posts_mobile": "title_featured_posts_mobile",
+    "title_latest_posts_desktop": "title_latest_posts_desktop",
+    "title_latest_posts_mobile": "title_latest_posts_mobile"
+  },
+  "site": {
+    "origin": "origin"
+  }
+}
