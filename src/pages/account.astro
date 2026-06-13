@@ -106,5 +106,8 @@ const t = (await import(/* @vite-ignore */ `@locales/${globalSettings.language}.
 </BaseLayout>
 
 <script>
-    document.querySelector('.hero-number').innerHTML = document.querySelectorAll('.author-info-count').length.toString();
+    const heroNumber = document.querySelector('.hero-number');
+    if (heroNumber) {
+        heroNumber.innerHTML = document.querySelectorAll('.author-info-count').length.toString();
+    }
 </script>

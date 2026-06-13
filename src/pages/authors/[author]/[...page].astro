@@ -194,5 +194,8 @@ const profile_image = getImage({glob: image_glob, folder_name: "author", image_n
 </BaseLayout>
 
 <script>
-    document.querySelector('.hero-number').innerHTML = document.querySelectorAll('.author-info-count').length.toString();
+    const heroNumber = document.querySelector('.hero-number');
+    if (heroNumber) {
+        heroNumber.innerHTML = document.querySelectorAll('.author-info-count').length.toString();
+    }
 </script>

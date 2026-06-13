@@ -15,3 +15,9 @@ export type GlobalSettingsProps = Record<string, any>;
 export type AuthorProps = Record<string, any>;
 export type PaginationProps = Record<string, any>;
 export type ToggleCardsProps = Record<string, any>;
+export type PostProps = {
+  post?: any;
+  previous_post?: any;
+  next_post?: any;
+  minutes_read?: string;
+};
