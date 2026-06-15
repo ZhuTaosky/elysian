@@ -13,90 +13,152 @@ const navbarSettings: Navbar[] = [
 		link: "/",
 	},
     {
-		text: "Style Guide",
-		link: "/style-guide/",
-	},
-	{
-		text: "Documentation",
-		link: "https://www.kusa-projects.com/astro-documentation",
-		new_tab: true
-	},
-	{
-		text: "Post Type",
+		text: "Research ",
 		dropdown: [
 			{
-				text: "Wide",
+				text: "Research Blog",
+				link: "/style-guide/",
+				new_tab: true,
+			},
+
+    {
+				text: "Knowledge Record",
+				link: "/blog/uncovering-hidden-special-places/",
+				new_tab: true,
+			},
+			{
+				text:"Project",
+				link: "/blog/uncovering-hidden-special-places/",
+				new_tab: true,
+			}
+
+
+		],
+
+
+	},
+	{
+		text: "Personal Life",
+		dropdown: [
+			{
+				text: "Life Blog",	
 				link: "/blog/uncovering-hidden-special-places/",
 			},
-			{
-				text: "Narrow",
+
+			{	text: "Free Writing and Reading",
 				link: "/blog/traveling-principles-demystified/",
 			},
-			{
-				text: "Vertical",
+
+			{	text: "Traveling ",
 				link: "/blog/traveling-on-a-budget/",
+			},
+
+			{
+				text: "Interests",
+				link: "/blog/traveling-on-a-budget/",
+			},
+
+			{
+				text: "Important Moments",	
+				link: "/blog/uncovering-hidden-special-places/",
 			},
 		],
 	},
+
 	{
-		text: "Features",
-		dropdown: [
-			{
-				text: "Features",
-				link: "/features/",
-			},
-			{
-				text: "Archive",
-				link: "/archive/",
-			},
+		text: "Archive",
+		link: "/archive/",
+	},
+
 			{
 				text: "Tags",
 				link: "/tags/",
+
 			},
-			{
+
+{
 				text: "Authors",
 				link: "/authors/",
 			},
-			{
-				text: "Account",
-				link: "/account/",
-			},
-			{
-				text: "Subscribe",
-				link: "/subscribe/",
-			},
-			{
-				text: "Membership",
-				link: "/membership/",
-			},
-			{
-				text: "Contact",
-				link: "/contact/",
-			},
-			{
-				text: "FAQ",
-				link: "/faq/",
-			},
-			{
-				text: "404",
-				link: "/404/",
-			},
-			{
-				text: "RSS Feed",
-				link: "/rss.xml/",
-			},
-			{
-				text: "Get Theme",
-				link: "https://kusa-projects.lemonsqueezy.com/buy/fcfbe185-536a-46c6-a0dd-7f4621a64314",
-				new_tab: true
-			},
-			{
-				text: "KUSA Projects",
-				link: "https://www.kusa-projects.com/",
-				new_tab: true
-			},
-		],
-	},
-]
+
+
+	// {
+	// 	text: "Post Type",
+	// 	dropdown: [
+	// 		{
+	// 			text: "Wide",
+	// 			link: "/blog/uncovering-hidden-special-places/",
+	// 		},
+	// 		{
+	// 			text: "Narrow",
+	// 			link: "/blog/traveling-principles-demystified/",
+	// 		},
+	// 		{
+	// 			text: "Vertical",
+	// 			link: "/blog/traveling-on-a-budget/",
+	// 		},
+	// 	],
+	// },
+
+	// {
+// 		text: "Features",
+// 		dropdown: [
+// 			{
+// 				text: "Features",
+// 				link: "/features/",
+// 			},
+// 			{
+// 				text: "Archive",
+// 				link: "/archive/",
+// 			},
+// 			{
+// 				text: "Tags",
+// 				link: "/tags/",
+// 			},
+// 			{
+// 				text: "Authors",
+// 				link: "/authors/",
+// 			},
+// 			{
+// 				text: "Account",
+// 				link: "/account/",
+// 			},
+// 			{
+// 				text: "Subscribe",
+// 				link: "/subscribe/",
+// 			},
+// 			{
+// 				text: "Membership",
+// 				link: "/membership/",
+// 			},
+// 			{
+// 				text: "Contact",
+// 				link: "/contact/",
+// 			},
+// 			{
+// 				text: "FAQ",
+// 				link: "/faq/",
+// 			},
+// 			{
+// 				text: "404",
+// 				link: "/404/",
+// 			},
+// 			{
+// 				text: "RSS Feed",
+// 				link: "/rss.xml/",
+// 			},
+// 			{
+// 				text: "Get Theme",
+// 				link: "https://kusa-projects.lemonsqueezy.com/buy/fcfbe185-536a-46c6-a0dd-7f4621a64314",
+// 				new_tab: true
+// 			},
+// 			{
+// 				text: "KUSA Projects",
+// 				link: "https://www.kusa-projects.com/",
+// 				new_tab: true
+// 			},
+// 		],
+// 	},
+ ]
 
 export default navbarSettings;

@@ -1,34 +1,19 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
-import mdx from "@astrojs/mdx";
-import sitemap from "@astrojs/sitemap";
-// https://github.com/delucis/astro-auto-import
-import AutoImport from "astro-auto-import";
-import { remarkReadingTime } from './src/utils/remark-reading-time.mjs';
+import AutoImport from 'astro-auto-import';
+import mdx from '@astrojs/mdx';
 
-import netlify from "@astrojs/netlify";
-
-// https://astro.build/config
 export default defineConfig({
   site: "https://elysian-astro.kusa-projects.com",
-
   integrations: [
-      AutoImport({
-          imports: [
-              "@components/Button.astro",
-              "@components/ImageGallery.astro",
-              "@components/Callout.astro",
-              "@components/ToggleCards.astro",
-              "@components/MediaEmbed.astro"
-          ],
-      }),
-      mdx(),
-      sitemap()
+    AutoImport({
+      imports: [
+        './src/components/Button.astro',
+        './src/components/Callout.astro',
+        './src/components/ImageGallery.astro',
+        './src/components/ToggleCards.astro',
+        './src/components/MediaEmbed.astro',
+      ],
+    }),
+    mdx(),
   ],
-
-  markdown: {
-      remarkPlugins: [remarkReadingTime],
-  },
-
-  adapter: netlify()
 });

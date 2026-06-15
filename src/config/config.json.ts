@@ -1,9 +1,9 @@
 import type { GlobalSettingsProps } from "@src-types/types.ts";
 
 const globalSettings: GlobalSettingsProps = {
-    site_name: "Elysian",
-    site_meta_title: "Elysian",
-    site_meta_description: "Elysian is a modern blog theme featuring captivating page transitions, a unique custom cursor, and a sleek scrollbar, all enhanced with smooth scrolling.",
+    site_name: "Tao's Blog",
+    site_meta_title: "Tao's Blog - A Personal Journey of Discovery and Growth",
+    site_meta_description: "Hi, I'm Tao. A fresh PhD student focused on learning for control and a passionate explorer of inner and outer worlds. I believe data learning will breath the soul into machines and intelligence will forge the new civilization.",
     site_meta_image_source: "/images/kusa-projects-logo.jpg",
     twitter_username: "@Your_Username",
     language: "en", // Default language and static texts file (en.json)

@@ -25,3 +25,9 @@ pnpm-debug.log*
 
 # Local Netlify folder
 .netlify
+
+# local/temporary files
+.claude/
+test.html
+
+package-lock.json
