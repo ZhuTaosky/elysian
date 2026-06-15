@@ -29,5 +29,6 @@ pnpm-debug.log*
 # local/temporary files
 .claude/
 test.html
+src/content/pages/Page_Templete.mdx
 
 package-lock.json
