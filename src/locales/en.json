@@ -1,7 +1,7 @@
 {
   "archive_page": {
     "all_tags": "all_tags",
-    "title_hero": "title_hero"
+    "title_hero": "All my life"
   },
   "meta": {
     "glob": "glob",
@@ -34,7 +34,7 @@
       "sign_in": "sign_in"
     },
     "tags_slider": {
-      "title": "title"
+      "title": "Tags"
     }
   },
   "github": {
@@ -174,12 +174,12 @@
     "description_hero": "description_hero"
   },
   "homepage": {
-    "title_hero": "Keep Growing",
+    "title_hero": "Great Tao",
     "description_hero": "Hi, I'm Tao. A fresh PhD student focused on learning for control and a passionate explorer of inner and outer worlds. I believe data learning will breath the soul into machines and intelligence will forge the new civilization.",
-    "title_featured_posts_desktop": "title_featured_posts_desktop",
-    "title_featured_posts_mobile": "title_featured_posts_mobile",
-    "title_latest_posts_desktop": "title_latest_posts_desktop",
-    "title_latest_posts_mobile": "title_latest_posts_mobile"
+    "title_featured_posts_desktop": "Featured News",
+    "title_featured_posts_mobile": "Featured News",
+    "title_latest_posts_desktop": "Latest News",
+    "title_latest_posts_mobile": "Latest News"
   },
   "site": {
     "origin": "origin"

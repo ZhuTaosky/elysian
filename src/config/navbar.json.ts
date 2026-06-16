@@ -14,72 +14,24 @@ const navbarSettings: Navbar[] = [
 	},
     {
 		text: "Research ",
-		dropdown: [
-			{
-				text: "Research Blog",
-				link: "/style-guide/",
-				new_tab: true,
-			},
-
-    {
-				text: "Knowledge Record",
-				link: "/blog/uncovering-hidden-special-places/",
-				new_tab: true,
-			},
-			{
-				text:"Project",
-				link: "/blog/uncovering-hidden-special-places/",
-				new_tab: true,
-			}
-
-
-		],
-
+		link: "/academic-page/",
+		new_tab: true,
+		
 
 	},
 	{
 		text: "Personal Life",
-		dropdown: [
-			{
-				text: "Life Blog",	
-				link: "/blog/uncovering-hidden-special-places/",
-			},
-
-			{	text: "Free Writing and Reading",
-				link: "/blog/traveling-principles-demystified/",
-			},
-
-			{	text: "Traveling ",
-				link: "/blog/traveling-on-a-budget/",
-			},
-
-			{
-				text: "Interests",
-				link: "/blog/traveling-on-a-budget/",
-			},
-
-			{
-				text: "Important Moments",	
-				link: "/blog/uncovering-hidden-special-places/",
-			},
-		],
+		link: "/blog/uncovering-hidden-special-places/",
 	},
+
 
 	{
 		text: "Archive",
 		link: "/archive/",
 	},
 
-			{
-				text: "Tags",
-				link: "/tags/",
+			
 
-			},
-
-{
-				text: "Authors",
-				link: "/authors/",
-			},
 
 
 	// {
