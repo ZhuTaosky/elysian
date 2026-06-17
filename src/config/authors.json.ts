@@ -28,7 +28,7 @@ const authorSettings: AuthorProps[] = [
         website_url: "https://www.kusa-projects.com/",
         x_url: "https://www.twitter.com/",
         facebook_url: "https://www.facebook.com/"
-    }
+    },
     {
         slug: "Zhu Tao",
         bio: "The creator of the website. He never give up growing up and learning to be a better person. ",
