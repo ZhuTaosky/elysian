@@ -1,0 +1,25 @@
+---
+---
+<!-- 评论容器 -->
+<div id="waline"></div>
+
+<script>
+  // 异步加载 Waline 的 JS 和 CSS
+  import { init } from '@waline/client';
+  import '@waline/client/style';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://zhutao.netlify.app/', // 替换成你部署的后端地址
+    dark: 'auto', // 自动夜间模式
+    // meta: ['nick', 'mail', 'link'], // 匿名评论需要填写的字段，默认是昵称、邮箱、网址
+    // requiredMeta: ['nick'], // 限制必须填写昵称
+  });
+</script>
+
+<style is:global>
+  /* 可以在这里微调评论区的样式 */
+  :root {
+    --waline-theme-color: #3b82f6; /* 自定义主题色 */
+  }
+</style>
