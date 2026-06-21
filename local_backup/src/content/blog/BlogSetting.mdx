@@ -1,0 +1,44 @@
+---
+post_header_type: "Vertical" 
+title: "Textbook about how to build my blog"
+excerpt: "Lectus suspendisse eleifend nunc vulputate aliquam sit. Venenatis ac mattis vel ultricies platea mauris. Dignissim malesuada pharetra ut quis ornare sollicitudin feugiat amet vitae."
+feature_image: "../../assets/images/blog/exploring-the-creative-boundaries.jpg"
+pub_date: "2024-06-13"
+featured: false 
+tags: ['research-blog', 'research-blog', 'travel']
+authors: ['John Blighton']
+draft: false
+---
+
+{/* import sampleImage from "../../assets/images/blog/exploring-the-creative-boundaries.jpg"; */}
+
+## Chapter I: How to set up a blog post?
+
+At the top of each post, you’ll need to define some metadata using frontmatter. Here's a breakdown of the options:
+‍
+- post_header_type: A string that determines the style of the post header. Various styles are available — check the comments next to this field for valid values.
+- title: A string used for the post title.
+- excerpt: A short description or summary of the post.
+- feature_image: A string path to the featured image.
+- Tip: Blog images should be placed in src/assets/images/blog.
+- featured: A boolean. If set to true, the post will appear in the featured section on the homepage.
+- pub_date: A string. Publication date of the post.
+- tags: An array of strings. Each tag will automatically link to its respective tag page.
+- authors: An array of strings. Each author will link to their individual author page.
+- draft: A boolean. If set to true, the post will not be displayed on the live site. Use this while drafting posts.
+
+Where is the content of the post?
+    Well, the content of the post is written in Markdown format below the frontmatter. You can use standard Markdown syntax to format your text, add images, links, and more.
+
+### Working image example in MDX
+
+If you want to use an imported image directly in the body of an MDX post, use the imported asset's `src` value with a normal HTML image tag:
+
+{/* <img src={sampleImage.src} alt="Example image in this blog post" width="1200" height="800" /> */}
+
+This is the correct pattern for imported assets in MDX. Do not write `![alt](hero)` if `hero` is an imported image module.
+
+Tonight, 13th June 2026, I will continue to write the content of this post. Stay tuned!
+
+
+

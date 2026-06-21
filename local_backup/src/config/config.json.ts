@@ -1,0 +1,27 @@
+import type { GlobalSettingsProps } from "@src-types/types.ts";
+
+const globalSettings: GlobalSettingsProps = {
+    site_name: "Tao's Blog",
+    site_meta_title: "Tao's Blog - A Personal Journey of Discovery and Growth",
+    site_meta_description: "Hi, I'm Tao. A fresh PhD student focused on learning for control and a passionate explorer of inner and outer worlds. I believe data learning will breath the soul into machines and intelligence will forge the new civilization.",
+    site_meta_image_source: "/images/kusa-projects-logo.jpg",
+    twitter_username: "@taobias",
+    language: "en", // Default language and static texts file (en.json)
+    background_color: "rgb(0, 0, 0)", // Background color in rgb format
+    text_color: "rgb(255, 255, 255)", // Text color in rgb format
+    primary_font: "Roboto", // Google Fonts name (use the exact name as listed on Google Fonts embed link). Example: "Roboto Mono" should be "Roboto+Mono"
+    secondary_font: "Roboto+Mono", // Google Fonts name (use the exact name as listed on Google Fonts embed link). Example: "Roboto Mono" should be "Roboto+Mono"
+    logo_scale: 1, // Default logo scale (use a number for scaling)
+    heading_one_scale: 1, // Default scale for H1 elements (use a number for scaling)
+    pagination_posts_number: 6,
+    use_page_load_animations: true,
+    scrolling_type: "Moderate", // None, Subtle, Intense | Using Lenis library: https://lenis.darkroom.engineering/
+    use_custom_scrollbar: true, // Doesn't apply to Safari browsers
+    cursor_type: "Custom and Normal", // Normal, Custom, Custom and Normal
+    navigation_bar_type: "Animated", // Animated, Sticky, Normal
+    post_header_type: "Wide", // Wide, Narrow, Vertical
+    use_reading_progress_bar: false, // Use reading progress bar on post page
+    use_image_zoom: true // Use image zoom on post page
+}
+
+export default globalSettings;
