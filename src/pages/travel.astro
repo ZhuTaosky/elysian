@@ -1,0 +1,22 @@
+---
+import globalSettings from "@config/config.json.ts";
+import BaseLayout from "@layouts/BaseLayout.astro";
+import BlogTimeline from "@components/BlogTimeline.astro";
+
+const t = (
+  await import(/* @vite-ignore */ `@locales/${globalSettings.language}.json`).catch(
+    () => import(/* @vite-ignore */ "@locales/en.json"),
+  )
+).default;
+---
+
+<BaseLayout
+  globalSettings={globalSettings}
+  t={t}
+  title="Travel"
+  description="Travel posts archived by year"
+>
+  <main class="wide-container section-padding-top section-padding-bottom">
+    <BlogTimeline title="Travel" tag="Travel" />
+  </main>
+</BaseLayout>

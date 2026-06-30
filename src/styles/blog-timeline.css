@@ -1,0 +1,55 @@
+.blog-timeline {
+  margin-top: 1.5rem;
+}
+
+.blog-timeline-group {
+  margin-bottom: 2rem;
+}
+
+.blog-timeline-year {
+  font-size: 1.25rem;
+  opacity: 0.55;
+  margin: 0 0 0.75rem;
+}
+
+.blog-timeline-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-timeline-item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.4rem 0;
+}
+
+.blog-timeline-date {
+  flex-shrink: 0;
+  width: 5rem;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.5;
+  font-size: 0.9rem;
+}
+
+.blog-timeline-link {
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.blog-timeline-link:hover {
+  opacity: 0.6;
+}
+
+/* 移动优先断点：窄屏时日期换到标题上方 */
+@media (max-width: 640px) {
+  .blog-timeline-item {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .blog-timeline-date {
+    width: auto;
+  }
+}

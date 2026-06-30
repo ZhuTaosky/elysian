@@ -14,14 +14,41 @@ const navbarSettings: Navbar[] = [
 	},
     {
 		text: "Research ",
-		link: "/academic-page/",
-		new_tab: true,
-		
-
+		dropdown: [
+			{
+				text: "Research Profile",
+				link: "/academic-page/",
+			},
+			{
+				text: "Research Blog",
+				link: "/research-blog/",
+			},
+			{
+				text: "Research Project",
+				link: "/project/",
+			},
+		],
 	},
 	{
 		text: "Personal Life",
-		link: "/blog/uncovering-hidden-special-places/",
+		dropdown: [
+			{
+				text: "Free Writing",
+				link: "/free-writing/",
+			},
+			{
+				text: "Important Moments",
+				link: "/important-life/",
+			},
+			{
+				text: "Travel",
+				link: "/travel/",
+			},
+			{
+				text: "Interest",
+				link: "/interest/",
+			},
+		],
 	},
 
 

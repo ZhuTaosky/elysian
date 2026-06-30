@@ -1,0 +1,54 @@
+---
+import { getSortedPosts, getPostsByTag } from "@utils/utils.js";
+import "@styles/blog-timeline.css";
+
+interface Props {
+  title?: string;
+  tag?: string;
+}
+
+const { title = "Blog Archive", tag } = Astro.props;
+
+// 传了 tag 就只索引该标签文章（大小写不敏感），否则索引全部
+// 两个函数都已过滤草稿并按 pub_date 倒序，正好用于按年份折叠
+const { posts } = tag ? await getPostsByTag({ tag }) : await getSortedPosts();
+
+const groups = posts.reduce(
+  (acc, post) => {
+    const year = new Date(post.data.pub_date).getFullYear().toString();
+    const last = acc[acc.length - 1];
+    if (last?.year === year) last.posts.push(post);
+    else acc.push({ year, posts: [post] });
+    return acc;
+  },
+  [] as { year: string; posts: typeof posts }[],
+);
+
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "2-digit",
+});
+---
+
+<section class="blog-timeline">
+  <h3>{title}</h3>
+  {
+    groups.map((group) => (
+      <div class="blog-timeline-group">
+        <h4 class="blog-timeline-year">{group.year}</h4>
+        <ol class="blog-timeline-list">
+          {group.posts.map((post) => (
+            <li class="blog-timeline-item">
+              <time class="blog-timeline-date">
+                {dateFormatter.format(new Date(post.data.pub_date))}
+              </time>
+              <a class="blog-timeline-link" href={`/blog/${post.id}/`}>
+                {post.data.title}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    ))
+  }
+</section>
